@@ -1,0 +1,65 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-19T07:54:02.177Z",
+        "line": 4,
+        "name": "skyblue  background",
+        "description": "",
+        "id": "checking-the-skyblue-background-colour;skyblue--background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Set skyblue background button exists",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I click on the button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "The background colour will change to skyblue",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Skybluefeature"
+          }
+        ]
+      }
+    ],
+    "name": "Checking the skyblue background colour",
+    "description": "",
+    "id": "checking-the-skyblue-background-colour",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Background.feature",
+    "tags": [
+      {
+        "name": "@Skybluefeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
